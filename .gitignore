@@ -7,6 +7,8 @@ chroma_db/
 # Python cache
 __pycache__/
 
-# File dữ liệu tạm thời
+# File dữ liệu tạm thời (giữ Data_test cho repo)
 *.xlsx
 *.csv
+!Data_test/
+!Data_test/**
