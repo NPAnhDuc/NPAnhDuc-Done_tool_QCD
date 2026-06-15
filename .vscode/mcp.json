@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "jira-vinfast": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["jira_mcp_server.py"],
+      "env": {
+        "JIRA_URL": "${env:JIRA_URL}",
+        "JIRA_API_TOKEN": "${env:JIRA_API_TOKEN}"
+      }
+    }
+  }
+}
